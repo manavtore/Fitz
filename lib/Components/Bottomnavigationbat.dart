@@ -15,24 +15,3 @@ class Bottom extends StatelessWidget {
     );
   }
 }
-
-
-// class Bottom extends StatefulWidget {
-//   const Bottom({super.key});
-
-//
-
-// class _BottomState extends State<Bottom> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return BottomNavigationBar(
-//       items: const <BottomNavigationBarItem>[
-//         BottomNavigationBarItem(icon: Icon(Icons.run_circle), label: 'Running'),
-//         BottomNavigationBarItem(
-//           icon: Icon(Icons.alarm),
-//           label: 'BOC',
-//         )
-//       ],
-//     );
-//   }
-// }
