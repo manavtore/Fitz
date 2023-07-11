@@ -1,4 +1,3 @@
-import 'package:fitz/Components/Drawer.dart';
 import 'package:fitz/pages/Homescreen.dart';
 import 'package:fitz/static/Dark.dart';
 import 'package:fitz/static/light.dart';
