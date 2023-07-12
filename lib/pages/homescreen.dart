@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 fontSize: 50,
               ))),
       bottomNavigationBar: const Bottom(),
-      drawer: DrawerHome(),
+      drawer: const DrawerHome(),
     );
   }
 }
