@@ -11,7 +11,7 @@ class DrawerHome extends StatefulWidget {
 class _DrawerHomeState extends State<DrawerHome> {
   @override
   Widget build(BuildContext context) {
-    return const Drawer(
+    return Drawer(
         child: Column(
       children: [
         UserAccountsDrawerHeader(
@@ -27,9 +27,14 @@ class _DrawerHomeState extends State<DrawerHome> {
           ),
         ),
         ListTile(
-          leading: Icon(Icons.notification_add),
-          title: Text("Notification"),
-        ),
+            leading: Icon(Icons.notification_add),
+            title: Text("Notification"),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SettingsPage()),
+              );
+            }),
         ListTile(leading: Icon(Icons.history), title: Text("History")),
         ListTile(leading: Icon(Icons.share), title: Text("Share")),
         ListTile(leading: Icon(Icons.settings), title: Text("Settings")),

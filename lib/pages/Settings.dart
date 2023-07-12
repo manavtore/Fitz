@@ -10,18 +10,20 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: const [
-        ListTile(
-          title: Text('Workout'),
-        ),
-        ListTile(
-          title: Text('Genral Settings'),
-        ),
-        ListTile(
-          title: Text('Support Us'),
-        ),
-      ],
-    );
+    return Scaffold(
+        appBar: AppBar(title: const Text('Settings')),
+        body: ListView(
+          children: const [
+            ListTile(
+              title: Text('Workout'),
+            ),
+            ListTile(
+              title: Text('Genral Settings'),
+            ),
+            ListTile(
+              title: Text('Support Us'),
+            ),
+          ],
+        ));
   }
 }
