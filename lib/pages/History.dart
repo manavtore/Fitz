@@ -20,9 +20,7 @@ class _CalenderPageState extends State<CalenderPage> {
                 formatButtonVisible: false,
                 titleCentered: true,
               ),
-              availableCalendarFormats: const {
-                CalendarFormat.month: 'week',
-              },
+              availableGestures: AvailableGestures.all,
               locale: "en_US",
               firstDay: DateTime.utc(2010, 10, 16),
               lastDay: DateTime.utc(2030, 3, 14),
