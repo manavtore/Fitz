@@ -1,4 +1,5 @@
 import 'package:fitz/pages/Homescreen.dart';
+import 'package:fitz/pages/login.dart';
 import 'package:fitz/static/Dark.dart';
 import 'package:fitz/static/light.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: ThemeMode.system,
-      home: const HomeScreen(),
+      home: const Login(),
     );
   }
 }
